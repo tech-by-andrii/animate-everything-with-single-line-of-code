@@ -4,9 +4,12 @@ import { enableAnimation } from './helpers'
 import HomeScreen from './screens/HomeScreen'
 
 export default function () {
-  useEffect(() => {
-    enableAnimation()
-  })
+  useEffect(
+    () => {
+      enableAnimation()
+    },
+    [false]
+  )
 
   return (
     <>
