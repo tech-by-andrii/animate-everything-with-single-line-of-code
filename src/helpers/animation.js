@@ -1,4 +1,5 @@
 import { LayoutAnimation } from 'react-native'
+import {  UIManager } from "react-native";
 
 const CONFIG = {
   duration: 300,
@@ -11,6 +12,11 @@ const CONFIG = {
   }
 }
 
-export default function () {
+export function enableAnimation() {
+  UIManager.setLayoutAnimationEnabledExperimental &&
+  UIManager.setLayoutAnimationEnabledExperimental(true);
+}
+
+export function animate () {
   LayoutAnimation.configureNext(CONFIG)
 }
