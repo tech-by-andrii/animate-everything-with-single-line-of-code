@@ -38,9 +38,7 @@ export default function () {
 
       <View style={styles.contentContainer}>
         {example === EXAMPLE_TYPES.APPEARANCE && <AppearanceExample />}
-
         {example === EXAMPLE_TYPES.EXPAND && <ExpandableExample />}
-
         {example === EXAMPLE_TYPES.MOVEMENT && <MovementExample />}
       </View>
     </SafeAreaView>

@@ -15,7 +15,6 @@ export default StyleSheet.create({
     borderRadius: 3
   },
   text: {
-    textAlign: 'center',
-    color: COLORS.WHITE
+    textAlign: 'center'
   }
 })
