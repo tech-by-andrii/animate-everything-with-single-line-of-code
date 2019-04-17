@@ -21,8 +21,6 @@ export default function () {
       const top = getRandomIntInclusive()
       const left = getRandomIntInclusive()
 
-      console.log('top', top)
-      console.log('left', left)
       animate()
       setPosition({ top, left })
     },
