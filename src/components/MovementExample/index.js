@@ -32,7 +32,7 @@ export default function () {
   return (
     <>
       <View style={styles.buttonContainer}>
-        <Button text="Toggle appearance" onPress={handlePress} />
+        <Button text="Toggle movement" onPress={handlePress} />
       </View>
 
       <View style={[styles.movableBlock, position]} />
