@@ -8,7 +8,7 @@ export default function () {
     () => {
       enableAnimation()
     },
-    [false]
+    []
   )
 
   return (
